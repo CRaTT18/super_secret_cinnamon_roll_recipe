@@ -1,0 +1,52 @@
+body {
+    background: rgb(10,182,44);
+    text-align: center;
+}
+h1 {
+    background-color: white;
+    border-radius: 25px;
+    padding: 30px;
+    margin: 50px 300px;
+    box-shadow: 0 8px 20px 0 rgba(12, 0, 0, 0.856), 0 10px 20px 0 rgba(14, 0, 0, 0.822);
+    border: solid red 5px;
+    font-family: 'Langar', cursive;
+    font-size: 50px;
+}
+
+h2 {
+    background-color: white;
+    border-radius: 25px;
+    padding: 5px;
+    margin: 50px 600px;
+    box-shadow: 0 8px 20px 0 rgba(12, 0, 0, 0.856), 0 10px 20px 0 rgba(14, 0, 0, 0.822);
+    border: solid red 5px;
+    font-family: 'Langar', cursive;
+    font-size: 45px;
+}
+p, ul {
+    list-style-type: none;
+    background-color: white;
+    border-radius: 25px;
+    padding: 50px;
+    margin: 50px 50px;
+    box-shadow: 0 8px 20px 0 rgba(12, 0, 0, 0.856), 0 10px 20px 0 rgba(14, 0, 0, 0.822);
+    border: solid red 5px;
+    text-align: left;
+    font-family: 'Barlow', sans-serif;
+    font-size: 38px;
+}
+
+button {
+    border-radius: 15px;
+    padding: 20px 100px;
+    background-color: rgb(246, 246, 248);
+    font-family: 'Langar', cursive;
+    font-size: 40px;
+    box-shadow: 0 8px 20px 0 rgba(12, 0, 0, 0.856), 0 10px 20px 0 rgba(14, 0, 0, 0.822);
+    border: solid red 5px;
+}
+
+button:hover {
+    background-color: rgb(94, 17, 17);
+    color: white;
+}

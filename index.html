@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grandma Sue's Cinnamon Roll Recipe</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Langar&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1>Click the button to get the super secret family recipe!</h1>
+<button onclick="getRecipe()">Get it!</button>
+
+<script>
+function getRecipe() {
+    const pass = prompt("Please enter your super secret password.\nHint: Your super secret password is 8 numbers, no spaces, no dashes, no slashes.");
+    if (pass === "01021978" || pass === "11241979" || pass === "666") {
+      window.location.href = "recipe.html";  
+    } else {
+    alert("Access denied, you are not allowed to access this recipe.");
+        window.location.href = "https://www.google.com/search?sxsrf=ALeKk02U94kozfIpROJFItWl9l1EUVst8A%3A1608591670892&source=hp&ei=NinhX4-CNJnE0PEP7O6NmA4&iflsig=AINFCbYAAAAAX-E3RsBB6pz2f2ln8ETxXbtYc0gPqY9n&q=cinnamon+rolls+near+me&oq=cinnamon+roll&gs_lcp=CgZwc3ktYWIQAxgBMhAILhCxAxCDARAUEIcCEJMCMgUIABDJAzIFCAAQkgMyBQgAEJIDMggIABCxAxCDATIICAAQsQMQgwEyAggAMggIABCxAxCDATIFCAAQsQMyCAgAELEDEIMBOgQIIxAnOgUILhCRAjoFCAAQkQI6DgguELEDEIMBEMcBEKMCOgsILhCxAxCDARCRAjoECAAQQzoCCC46CAguEMcBEK8BOg0ILhCxAxCDARAUEIcCOgUILhCxAzoICC4QsQMQgwE6CwguELEDEIMBEJMCOgcILhCxAxBDOgsIABDJAxAWEAoQHjoICAAQFhAKEB5Qun1Y1Z4BYNSwAWgBcAB4AIABbIgBkgqSAQM4LjaYAQCgAQGqAQdnd3Mtd2l6&sclient=psy-ab";
+    }
+}
+</script>
+</body>
+</html>
