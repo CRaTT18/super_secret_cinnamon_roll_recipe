@@ -59,3 +59,11 @@ button:hover {
     background-color: rgb(94, 17, 17);
     color: white;
 }
+
+img {
+    padding: 50px;
+}
+
+footer {
+    padding: 50px;
+}
